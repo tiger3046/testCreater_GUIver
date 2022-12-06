@@ -41,6 +41,20 @@ create_yukiEnbutton.addEventListener('click',function(e){
     }
 },false);
 
+//テスト削除機能
+let removeButton = document.getElementById('removeButton');
+removeButton.addEventListener('click', function(e){
+  alert('test remove!');
+    //ul要素を取得
+    let languageList = document.getElementById('testTable');
+    //リストの末尾から要素を削除
+    for(let i=0;i<11;i++){
+      languageList.removeChild(languageList.lastElementChild);
+    }
+    
+},false);
+
+
 //印刷機能
 let print_yukiEnbutton = document.getElementById('yukiEn_print');
 print_yukiEnbutton.addEventListener('click',function(e){
@@ -50,12 +64,14 @@ print_yukiEnbutton.addEventListener('click',function(e){
   let paragraph2 = document.getElementById('p2');
   let create_button = document.getElementById('yukiEn_create');
   let print_button = document.getElementById('yukiEn_print');
+  let remove_button = document.getElementById('removeButton');
 
   paragraph1.style.visibility = "hidden";
   paragraph2.style.visibility = "hidden";
   hypertext.style.visibility = "hidden";
   create_button.style.visibility = "hidden";
   print_button.style.visibility = "hidden";
+  remove_button.style.visibility = "hidden";
 
   window.print();
 
@@ -64,5 +80,6 @@ print_yukiEnbutton.addEventListener('click',function(e){
   hypertext.style.visibility = "visible";
   create_button.style.visibility = "visible";
   print_button.style.visibility = "visible";
+  remove_button.style.visibility = "visible";
 
 });
