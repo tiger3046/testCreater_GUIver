@@ -1,6 +1,6 @@
 wordList = ['ゆっくりになる','目的地','到達する','たとえ〜でさえ','AすぎてBできない','Bするのに十分Aである','発明家','しだいに','だれも,,,ない'
 ,'滑稽な','想像力','Aをからかう','現代の','Aするために','成功した','分かる','Aするとすぐ'
-,'思いがけない','ためらう'];
+,'思いがけない','ためらう','分ける','もう','結婚する','まだ','AかBかどちらか'];
 
 //重複のない乱数作成
 var randoms = [];
@@ -56,14 +56,15 @@ removeButton.addEventListener('click', function(e){
 
 
 //印刷機能
-let print_yukiEnbutton = document.getElementById('yukiEn_print');
-print_yukiEnbutton.addEventListener('click',function(e){
+let print_saeJabutton = document.getElementById('saeJa_print');
+console.log(print_saeJabutton);
+print_saeJabutton.addEventListener('click',function(e){
 
   let paragraph1 = document.getElementById('p1');
   let hypertext = document.getElementById('h');
   let paragraph2 = document.getElementById('p2');
   let create_button = document.getElementById('yukiEn_create');
-  let print_button = document.getElementById('yukiEn_print');
+  let print_button = document.getElementById('saeJa_print');
   let remove_button = document.getElementById('removeButton');
 
   paragraph1.style.visibility = "hidden";
@@ -82,4 +83,4 @@ print_yukiEnbutton.addEventListener('click',function(e){
   print_button.style.visibility = "visible";
   remove_button.style.visibility = "visible";
 
-});
+},false);

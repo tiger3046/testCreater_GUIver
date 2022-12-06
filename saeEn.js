@@ -1,6 +1,6 @@
 wordList = ['slow down','destination','reach','even though','too A to B','A enough to B','invender','gradually','nobody'
 ,'ridiculous','imagination','make fun of A','modern','in order to A','successful','find out','as soon as A'
-,'unexpected','hesitate'];
+,'unexpected','hesitate','separate','anymore','marry','still'];
 
 //重複のない乱数作成
 var randoms = [];

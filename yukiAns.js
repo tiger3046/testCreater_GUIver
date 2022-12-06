@@ -1,10 +1,11 @@
-wordListJa = ["国家","判断する",",,,することができる",",,,と手を取り合う","殺す","死","飲用（の）"
-,"噴水式の水飲み器","噴水","不公事な","運動","ボイコット","続く","自由に…することができる","どこにでも"
-,"業績","奮起する","引用する","殺す","死"];
+wordListJa = ["国家","判断する",",,,することができる",",,,と手を取り合う","飲用（の）"
+,"噴水式の水飲み器","不公事な","運動","正義","ボイコット","続く","自由に…することができる","どこにでも"
+,"業績","奮起する","引用する","...を裁判する","肌","お手洗い","殺す","死"];
 
-wordListEn = ["restroom(s)","unfair","movement","drinking" ,"drinking fountain(s)","justice","boycott"
-,"last(ed)","be free to ..","anywhere","achievement","inspire(d)","quote","nation","judge(d)","skin","be able to .."
-,"join hands with ..","kill(ed)","death"];
+wordListEn = ["nation","judge(d)","be able to ..","join hands with ..","drinking"
+,"drinking fountain(s)","unfair","movement" ,"justice","boycott"
+,"last(ed)","be free to ..","anywhere","achievement","inspire(d)","quote","judge(d)","skin"
+,"restroom(s)","kill(ed)","death"];
 
 let create_yukiEnbutton = document.getElementById('yukiEn_create');
 create_yukiEnbutton.addEventListener('click',function(e){
@@ -51,4 +52,4 @@ print_yukiEnbutton.addEventListener('click',function(e){
   create_button.style.visibility = "visible";
   print_button.style.visibility = "visible";
 
-});
+},false);

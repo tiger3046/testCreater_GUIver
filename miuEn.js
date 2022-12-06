@@ -1,6 +1,7 @@
 wordList = ["need","find","clearly","scientists","enough","experiment","suddenly","nervous","disappeared"
 ,"arrive","decided","appeared","discover","cover","invite","expensive","carry","company","born","boring","move"
-,"poor","died","believe","afraid","poorest","hundred","right","each","either","wear"];
+,"poor","died","believe","afraid","poorest","hundred","right","each","either","wear",'funny','possible'
+,'felt','plan'];
 
 //乱数作成機能
 /** 重複チェック用配列 */

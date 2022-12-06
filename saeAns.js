@@ -1,10 +1,10 @@
 wordListEn = ['slow down','destination','reach','even though','too A to B','A enough to B','invender','gradually','nobody'
 ,'ridiculous','imagination','make fun of A','modern','in order to A','successful','find out','as soon as A'
-,'unexpected','hesitate'];
+,'unexpected','hesitate','separate','anymore','marry','still'];
 
 wordListJa = ['ゆっくりになる','目的地','到達する','たとえ〜でさえ','AすぎてBできない','Bするのに十分Aである','発明家','しだいに','だれも,,,ない'
 ,'滑稽な','想像力','Aをからかう','現代の','Aするために','成功した','分かる','Aするとすぐ'
-,'思いがけない','ためらう'];
+,'思いがけない','ためらう','分ける','もう','結婚する','まだ','AかBかどちらか'];
 
 
 let create_yukiEnbutton = document.getElementById('yukiEn_create');

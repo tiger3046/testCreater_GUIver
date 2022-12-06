@@ -1,11 +1,13 @@
 wordListEn = ["need","find","clearly","scientists","enough","experiment","suddenly","nervous","disappeared"
 ,"arrive","decided","appeared","discover","cover","invite","expensive","carry","company","born","boring","move"
-,"poor","died","believe","afraid","poorest","hundred","right","each","either","wear"];
+,"poor","died","believe","afraid","poorest","hundred","right","each","either","wear",'funny','possible'
+,'felt','plan'];
 
 wordListJa=["～を必要とする","～を探す","はっきりと","科学者","十分な","実験","突然","緊張する","見えなくなる"
-,"到着する","決定する","現れる","発見する","覆う","招待する","高価な","持っている","運ぶ","会社"
-,"うまれる","退屈な","動かす","食えな","死ぬ","信じる","恐れて","poor の最上級","100（の)","正しい"
-,"それぞれの",",,,もまた","身につけている"];
+,"到着する","決定する","現れる","発見する","覆う","招待する","高価な","運ぶ","会社"
+,"うまれる","退屈な","動かす","貧しい","死ぬ","信じる","恐れて","poor の最上級","100（の)","正しい"
+,"それぞれの",",,,もまた","身につけている",'こっけいな、おかしい','可能な、実行できる'
+,'fellの過去形','計画'];
 
 
 let create_yukiEnbutton = document.getElementById('yukiEn_create');
