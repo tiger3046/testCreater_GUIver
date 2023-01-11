@@ -22,11 +22,23 @@
         border-collapse:  collapse; /* セルの線を重ねる */
     }
     
-    .button{
-        color: #fff;
-        background-color: #eb6100;
-        border-radius: 100vh;
-    }
+    .button {
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 8pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 12px;   /* 余白       */
+        background    : #1a1aff;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        border        : 2px solid #1a1aff;    /* 枠の指定 */
+      }
+      .button:hover {
+        color         : #1a1aff;     /* 背景色     */
+        background    : #ffffff;     /* 文字色     */
+      }
 
     div.container main.main table#testTable{
         margin: auto;    
@@ -62,7 +74,23 @@
         border: solid 1px;  /* 枠線指定 */
         padding: 10px;      /* 余白指定 */
     }
-     
+    .button {
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 8pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 12px;   /* 余白       */
+        background    : #1a1aff;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        transition    : .3s;         /* なめらか変化 */
+        border        : 2px solid #1a1aff;    /* 枠の指定 */
+      }
+      .button:hover {
+        color         : #1a1aff;     /* 背景色     */
+        background    : #ffffff;     /* 文字色     */
+      }
     table {
         border-collapse:  collapse; /* セルの線を重ねる */
         width: 140px;

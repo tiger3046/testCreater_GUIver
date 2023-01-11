@@ -2,26 +2,35 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport"> 
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="../img/apple-touch-icon.png" sizes="180x180">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" /> 
         <title>SaeAnswer</title>
+        <link rel="stylesheet" type="text/css" href="../css/personal.css">        
     </head>
     <body>
-        <h1 id="h">This is Sae's answer creating page.</h1>
-        <p id="p1">If you want to create the answer,push "create" button.</p>
-        <button id="yukiEn_create">create</button>
+        <header class="header">
+            <h1 id="h">This is Sae's answer creating page.</h1>
+        </header>
 
-        <div>
-            <p>Here is the answer of the question.</p>
-            <table id = "testTable" border="1" width="500">
-                <tr>
-                    <th>word</th>
-                    <th>answer</th>
-                </tr>
-            </table>
-        </div>
-        <p id="p2">If you want to print out the answer, push the "print" button.</p>
-        <button id="yukiEn_print">print</button><br>
-        <script src="../js/saeAns.js"></script>
-        <a href="index.html">back to home page.</a>
+        <main class="main">
+            <p id="p1">If you want to create the answer,push "create" button.</p>
+            <button id="yukiEn_create" class="button">create</button>
+            <div>
+                <p>Here is the answer of the question.</p>
+                <table id = "testTable" border="1" width="500">
+                    <tr>
+                        <th>word</th>
+                        <th>answer</th>
+                    </tr>
+                </table>
+            </div>
+            <p id="p2">If you want to print out the answer, push the "print" button.</p>
+            <button id="yukiEn_print" class="button">print</button><br>
+            <script src="../js/saeAns.js"></script>
+            <a href="index.html">back to home page.</a>
+        </main>
+
+        <footer class="footer">@2022 HayashiTaiga</footer>
     </body>
 </html>
