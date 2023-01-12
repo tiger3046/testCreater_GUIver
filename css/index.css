@@ -1,9 +1,33 @@
 @media screen and (min-width:800px){
     header.header{
-        display:flex;
-        background:#00FF00;
+        /*display:flex;*/
+        background:#CCCCFF;
         justify-content:space-around;
     }
+    header.header nav.nav{
+        width: 100%;
+        height: 70px;
+        background-color: dimgray;
+        padding-top: 5px;
+        box-sizing: border-box;
+      }
+    header.header ul.ul{
+        display: flex;
+      }
+    header.header li.li{
+        list-style: none;
+      }
+    header.header a.a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        margin-right: 35px;
+    }
+
+    header.header a:hover{
+        color:white;
+    }
+
     header.header img.img{
         width: 50px;
         height: 50px;
@@ -11,18 +35,42 @@
     div.container .main.main{
        text-align: center;
     }
+
     footer.footer{
         display:flex;
-        background:#00FF00;
+        background:#CCCCFF;
         justify-content:space-around;
     }
 }
 
 @media screen and (max-width:799px){
     header.header{
-        display:flex;
-        background:#00FF00;
+        /*display:flex;*/
+        background:#CCCCFF;
         justify-content:space-around;
+    }
+    header.header nav.nav{
+        width: 100%;
+        height: 70px;
+        background-color: dimgray;
+        padding-top: 5px;
+        box-sizing: border-box;
+      }
+    header.header ul.ul{
+        display: flex;
+      }
+    header.header li.li{
+        list-style: none;
+      }
+    header.header a.a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        margin-right: 35px;
+    }
+
+    header.header a:hover{
+        color:white;
     }
 
     header.header img.img{
@@ -30,19 +78,16 @@
         height: 50px;
     }
 
-    div.container{
-        background: #EEEEEE;
-    }
     div.container .main.main{
         text-align: center;
         padding: 50px;
-        background: #EEEEEE;
      }
+
     footer.footer{
         padding: 0px;
         margin: 0px;
         display:flex;
-        background:#00FF00;
+        background:#CCCCFF;
         justify-content:space-around;
     }
 }
